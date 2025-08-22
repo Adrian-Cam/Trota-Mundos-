@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes soñados</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span>Trota Mundos</span>
+            </div>
+        
+               <ul><a href="#Introducción">Inicio</a> </ul>
+               <ul><a href="#about.us">Acerca de nosotros</a></ul>
+               <ul><a href="#contacto">Contactanos</a></ul>
+      
+        
+            <div class="barraBusqueda">
+                <input type="text" placeholder="Busca tu destino" id="barraBusqueda">
+                <button id="buscar">Buscar</button>
+                <button type="reset" ">Limpiar</button>
+             </div>
+             
+        </nav>
+    </header>
+    
+    
+    <div class="social-bar">
+        <a href="https://www.facebook.com/WillSmith" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href= "https://www.youtube.com/@WillSmith" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="instagram.com/willsmith" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <main class="principal" id="Introducción">
+        <section class="introduccion" >
+            <h1>Atrevete a descubrir nuevas experiencias</h1>
+            <p>¡Bienvenido a Trota Mundos! Aquí, la pasión por viajar se convierte en inspiración. Nuestro objetivo es ayudarte a descubrir destinos fascinantes, consejos útiles y experiencias inolvidables que harán de cada viaje una aventura única. Ya seas un viajero experimentado o estés planeando tu primera escapada, en Trota Mundos encontrarás recomendaciones personalizadas que te guiarán en tu recorrido por el mundo. ¡Prepárate para explorar y trotar por nuevos horizontes!</p>
+        </section>
+        <div id="resultados"></div>
+    </main>
+    
+    <h1 class="sobreh1" id="about.us">Sobre nosotros</h1>
+    
+    <div class="contenedorAbout" >
+        
+        <section class="about-us">       
+            <div>           
+                <h2>¿Quiénes somos?</h2>
+                <p>En Trota Mundos, somos un equipo apasionado de viajeros y aventureros dedicados a compartir nuestras experiencias y conocimientos sobre el fascinante mundo de los viajes. Fundada con el propósito de inspirar a otros a explorar nuevas culturas y destinos, nuestra misión es ayudarte a crear recuerdos inolvidables y a descubrir lo mejor que el mundo tiene para ofrecer.</p>
+            </div>  
+        </section>
+
+       <section class="team">
+             <H1>Nuestro equipo</H1>
+            <div class="team-member">
+                <p>  <strong>Laura Martínez</strong> - Fundadora y Directora de Contenidos
+                </p>
+                </div>
+                <div class="team-member">
+                 <p> <strong>Adrian Camp</strong>  - Experto en Tecnología y Desarrollo Web</p>
+            </div>
+   
+            <div class="team-member">
+                 <p> <strong>Clara Gómez</strong> - Coordinadora de Redes Sociales
+                  </p>
+            </div>
+        </section>
+    </div> 
+
+    <section class="contacto" id="contacto">
+        <h1>Contáctanos</h1>
+        <p>Si tienes alguna pregunta, sugerencia o simplemente quieres compartir tus experiencias de viaje con nosotros, ¡no dudes en ponerte en contacto!</p>
+        <form class="form-contacto" action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+            
+        </form>
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+
+</body>
+</html>
+
+
