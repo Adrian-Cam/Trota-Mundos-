@@ -43,7 +43,7 @@
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "sa-paulo.jpg",
+            "imageUrl": "sao-pablo.jpg",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -73,7 +73,7 @@
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
-        "imageUrl": "copacabana.jpg",
+        "imageUrl": "copacapana.jpg",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
     ]
