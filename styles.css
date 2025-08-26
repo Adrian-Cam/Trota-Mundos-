@@ -130,7 +130,7 @@ span {
 .barraBusqueda button:hover {
     background-color: #025663 ;
 }
-    .social-bar {
+ .social-bar {
             position: fixed;
             top: 60%;
             left: 5px;
@@ -151,7 +151,7 @@ span {
         }
         .social-bar a:hover {
             background-color: #025663 ;
-        }
+        }   
 
 .introduccion {
    background-color: rgba(255, 255, 255, 0.7);
