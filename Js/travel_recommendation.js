@@ -36,7 +36,7 @@
     }
 
     try {
-      const res = await fetch("travel_recommendation_api.json", { cache: "no-store" });
+      const res = await fetch("data/travel_recommendation_api.json", { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status} al cargar JSON`);
       const data = await res.json();
 
